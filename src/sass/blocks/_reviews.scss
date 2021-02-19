@@ -1,0 +1,36 @@
+.feed {
+  &__item {
+    display: flex;
+    padding: 50px 0;
+    border-bottom: 1px solid #f6f6f6;
+    &:last-of-type {
+      border: none;
+    }
+  }
+  &__img {
+    width: 169px;
+    height: 169px;
+    margin-right: 60px;
+    border-radius: 50%;
+  }
+  &__subtitle {
+    color: #0d0d0d;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+  &__count {
+    margin-top: 7px;
+    color: #646464;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+  }
+  &__descr {
+    margin-top: 15px;
+    color: #0d0d0d;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+  }
+}
