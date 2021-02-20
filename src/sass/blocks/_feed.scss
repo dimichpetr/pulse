@@ -1,10 +1,12 @@
 .feed {
+  padding-bottom: 70px;
   &__item {
     display: flex;
     padding: 50px 0;
     border-bottom: 1px solid #f6f6f6;
     &:last-of-type {
       border: none;
+      padding: 0;
     }
   }
   &__img {

@@ -1,5 +1,5 @@
 .catalog {
-  padding-bottom: 73px;
+  padding-bottom: 70px;
   &__tabs {
     display: flex;
     justify-content: center;
@@ -165,4 +165,8 @@
       text-decoration: underline;
     }
   }
+}
+
+.flex-wrap-fix {
+  width: 300px;
 }
