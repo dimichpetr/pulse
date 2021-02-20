@@ -9,5 +9,14 @@
     font-weight: 500;
     line-height: 24px;
   }
-
+  .error {
+    margin-bottom: 15px;
+    border: 1px solid red;
+    text-align: center;
+  }
+  label.error {
+    margin-top: -10px;
+    border: none;
+    color: white;
+  }
 }
